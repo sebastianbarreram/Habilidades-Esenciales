@@ -1,36 +1,66 @@
 import React from 'react'
+import seb from './img/avatarseb.png';
+import juan from './img/avatarjuan.jpeg';
+import john from './img/avatarjohn.jpeg';
+import mao from './img/avatarmao.jpeg';
+import daniel from './img/avatardaniel.jpeg';
 
 export default function Contactenos() {
     return (
         <>
-            <div className="container">
-                <header className='py-2'>
-                    <div className="container">
-                        <div className="row">
-                            <div>
-                                <h2>Escríbenos... ¿Cómo te podemos ayudar?</h2>
-                            </div>
-                        </div>
+            <div className="cards">
+                <div className='item'>
+                    <div className="card__image-holder">
+                        <img className="card__image services-info__imagen" src={seb} alt="wave" />
                     </div>
-                </header>
-
-
-
-                <form>
-                    <div className="form-group">
-                        <label for="exampleInputEmail1">Nombre completo</label>
-                        <input type="email" className="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Nombre completo"/>
+                    <div className="card-title">
+                        <h4>
+                            Sebastian Barrera Marín
+                        </h4>
                     </div>
-                    <div className="form-group">
-                        <label for="exampleInputPassword1">Correo</label>
-                        <input type="text" className="form-control" id="exampleInputPassword1" placeholder="Correo"/>
+                </div>
+                <div className='item'>
+                    <div className="card__image-holder">
+                        <img className="card__image services-info__imagen" src={daniel} alt="wave" />
                     </div>
-                    <div className="form-group">
-                        <label for="exampleInputPassword1">Comentario</label>
-                        <textarea class="form-control" id="message" name="message" placeholder="Ingresa aquí tu mensaje para nosotros" rows="7"></textarea>
+                    <div className="card-title">
+                        <h4>
+                            Daniel Steven Gil Cruz
+                        </h4>
                     </div>
-                    <button type="submit" className="btn btn-primary">ENVIAR</button>
-                </form>
+                </div>
+                <div className='item'>
+                    <div className="card__image-holder">
+                        <img className="card__image services-info__imagen" src={john} alt="wave" />
+                    </div>
+                    <div className="card-title">
+                        <h4>
+                            John Edward Acevedo Rojas
+                        </h4>
+                    </div>
+                </div>
+            </div>
+            <div className="cards">
+                <div className='item'>
+                    <div className="card__image-holder">
+                        <img className="card__image services-info__imagen" src={mao} alt="wave" />
+                    </div>
+                    <div className="card-title">
+                        <h4>
+                            Manuel Mauricio Gomez Gallo
+                        </h4>
+                    </div>
+                </div>
+                <div className='item'>
+                    <div className="card__image-holder">
+                        <img className="card__image services-info__imagen" src={juan} alt="wave" />
+                    </div>
+                    <div className="card-title">
+                        <h4>
+                            Juan David Rivera Naranjo
+                        </h4>
+                    </div>
+                </div>
             </div>
         </>
     )
