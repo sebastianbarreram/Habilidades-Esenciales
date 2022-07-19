@@ -7,6 +7,7 @@ import roles_img from './img/roles.png'
 import resp_img from './img/responsabilidad.png'
 import comunicacion from './img/comunicacion.jpg'
 import motivacion from './img/motivacion.png'
+// import video from './video/video.mp4'
 
 export default function Paginainicio() {
     return (
@@ -38,8 +39,9 @@ export default function Paginainicio() {
                 </a>
             </div>
             <br />
-            <h2 className="text-center"> Trabajo en equipo</h2>
+            <h2 className="text-center">¿Cuál es la importancia de la contribución individual para el equipo?</h2>
             {/* <!-- inicio sección de servicios --> */}
+            <br/>
             <div id="servicios" className="services-section">
                 <article className="services-info">
                     <img className="services-info__imagen" src={ojetivo_img} alt="" />
@@ -81,6 +83,7 @@ export default function Paginainicio() {
             {/* <!-- fin sección de servicios --> */}
             <div>
                 <h2 className="text-center"> Video //TODO: colocar aquí el video</h2>
+                {/* <video src={video} width="640" height="480"></video> */}
             </div>
         </>
     )
