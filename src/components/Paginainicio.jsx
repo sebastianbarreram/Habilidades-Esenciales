@@ -82,8 +82,8 @@ export default function Paginainicio() {
             </div>
             {/* <!-- fin sección de servicios --> */}
             <div>
-                <h2 className="text-center"> Video //TODO: colocar aquí el video</h2>
-                {/* <video src={video} width="640" height="480"></video> */}
+                <iframe width="420" height="315" src="https://youtu.be/XJyhKFltMJo">
+                </iframe>
             </div>
         </>
     )
