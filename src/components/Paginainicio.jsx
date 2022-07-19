@@ -41,7 +41,7 @@ export default function Paginainicio() {
             <br />
             <h2 className="text-center">¿Cuál es la importancia de la contribución individual para el equipo?</h2>
             {/* <!-- inicio sección de servicios --> */}
-            <br/>
+            <br />
             <div id="servicios" className="services-section">
                 <article className="services-info">
                     <img className="services-info__imagen" src={ojetivo_img} alt="" />
@@ -82,8 +82,9 @@ export default function Paginainicio() {
             </div>
             {/* <!-- fin sección de servicios --> */}
             <div>
-                <iframe width="420" height="315" src="https://youtu.be/XJyhKFltMJo">
-                </iframe>
+                <div class="embed-responsive embed-responsive-16by9">
+                    <iframe className="embed-responsive-item" src="https://www.youtube.com/embed/zpOULjyy-n8?rel=0" allowfullscreen></iframe>
+                </div>
             </div>
         </>
     )
